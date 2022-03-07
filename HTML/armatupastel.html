@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SYLES SHEET -->
+    <LINK REL=StyleSheet HREF="css/styles.css" TYPE="text/css" MEDIA=screen>
+    <!-- BOOTSTRAP 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <title>Arma tu Pastel!</title>
+</head>
+<body>
+    <nav class=" navbar navbar-expand-lg navbar-dark bg-dark ">
+        <!-- Navbar content -->
+     
+        <div class="container-fluid navbar-color-new">
+            <a class="navbar-brand" href="#"></a><img src="img/logo vanilla.png" class="img-fluid" alt="Responsive image"></a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Mision</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="encuentranos.html">Donde encontrarnos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="armatupastel.html">¡Arma tu pastel!</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pastelero.html">Login</a>
+                </li>
+
+              </ul>
+
+            </div>
+          </div>
+      </nav>
+
+     <header>
+         <div class="title">
+             <h1>La pasteleria mas dulce de todas...</h1>
+             <h2>¿Ya sabes como ordenarás tu pastel?</h2>
+         </div>
+
+
+     </header> 
+
+     <!-- FORMULARIO -->
+        
+        <div class="container">
+            <p>Arma tu pastel:</p>
+            <form action="#">
+                <!--REQUISITO DE NOMBRE-->
+                <div class="form-group text-left">
+                    <label for="nombre">* Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" class="form-control" required placeholder="Escriba su nombre">
+                </div>
+    
+                <div class="form-group text-left">
+                    <label for="nombre">* Apellido:</label>
+                    <input type="text" name="apellido" id="apellido" class="form-control" required placeholder="Escriba sus apellidos">
+                </div>
+    
+                <div class="form-group text-left">
+                    <label for="correo">* Correo</label>
+                    <input type="email" name="correo" id="correo" class="form-control" required placeholder="Escriba su correo">
+                </div>
+    
+                <div class="form-group text-left">
+                    <label for="correo">* Telefono</label>
+                    <input type="number" name="telefono" id="telefono" class="form-control" required placeholder="Escriba su numero de Telefono">
+                </div>
+    
+                <div class="form-group text-left">
+                    <label for="observaciones">* Decripción de pastel (Se lo mas detallado posible)</label>
+                    <textarea class="form-control" name="observaciones" id="observaciones">
+                    </textarea>
+                </div>
+    
+                <label for="observaciones">* ¿Que sabores deseas en tu pastel? (Puedes seleccionar mas de uno)</label>
+                <div class="form-group text-left">
+                    
+                    <input type="checkbox" id="fresa" name="fresa" value="fresa">
+                    <label for="fresa"> Fresa</label><br>
+                    
+                    <input type="checkbox" id="vainilla" name="vainilla" value="vainilla" checked>
+                    <label for="vainilla" > Vainilla</label><br>
+                    
+                    <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+                    <label for="vehicle3">Chocolate</label><br>
+                </div>
+
+                <br>
+                <label for="observaciones">* ¿Que adornos deseas en tu pastel? (Puedes seleccionar mas de uno)</label>
+                <div class="form-group text-left">
+                    
+                    <input type="checkbox" id="fresa" name="fresa" value="fresa" checked>
+                    <label for="fresa" > Frutas</label><br>
+                    
+                    <input type="checkbox" id="vainilla" name="vainilla" value="vainilla">
+                    <label for="vainilla"> Chispas</label><br>
+                    
+                    <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+                    <label for="vehicle3">Chocolate</label><br>
+                </div>
+    
+                <div class="form-group text-left">
+                    <label for="enviar"></label>
+                    <input type="submit" name="enviar" id="enviar" class="form-control btn btn-outline-light" role="button">
+                </div>
+    
+                <div class="form-group text-left">
+                    <label for="reiniciar"></label>
+                    <input type="reset" name="limpiar" id="limpiar" class="form-control btn btn-outline-light" role="button">
+                </div>
+            </form>
+        </div>
+
+
+
+    <footer>
+        Vanillanilla 2022 - LAUNCHX - FRONTEND WEEK (HTML)
+    </footer>
+</body>
+
+
+</html>
