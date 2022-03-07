@@ -1,0 +1,132 @@
+*{
+
+}
+
+@font-face {
+    font-family: 'Kollektif';
+    src: url('../fuentes_web/Kollektif.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+
+}
+
+.navbar-color-new {
+    background-color: #F6F0CB !important
+    
+}
+
+.nav-link {
+    color:#743712 !important;
+    
+}
+
+.tabla_ingredientes {
+    text-align: center;
+    padding-top: 10vh;
+    color:#743712;
+}
+
+.tabla_ingredientes h3 {
+    padding-bottom: 15px;
+    
+    color:#dd5a8d;
+}
+
+.tabla_adornos {
+    text-align: center;
+    padding-top: 10vh;
+    color:#743712;
+    
+}
+
+.tabla_adornos h3 {
+    padding-bottom: 15px;
+    color:#dd5a8d;
+}
+
+.adornos {
+    background-color: #dd5a8d !important;
+    color:#F6F0CB;
+    margin: 15px;
+    border-radius: 5px;
+    
+}
+
+.ingredientes {
+    background-color: #743712 !important;
+    color:#F6F0CB;
+    margin: 15px;
+    border-radius: 5px;
+    
+}
+header {
+    background:url("../img/dessert-g5e09ef60c_1920.jpg") no-repeat center center fixed;
+	background-size:cover;
+	height:300px;
+	width: 100%;
+
+}
+
+.title {
+    content: "";
+    background: linear-gradient(90deg,#743712,#F6F0CB);
+    opacity: 0.8;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 10px;
+}
+
+header h1 {
+
+    text-align: center;
+    color:aliceblue;
+
+}
+
+header h2 {
+    text-align: center;
+    color:#743712;
+}
+
+.cakes {
+    border-radius: 45px;
+}
+
+footer {
+    background-color: #743712;
+    color: #F6F0CB;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+
+.mision p{
+    color:#dd5a8d;
+    font-size:large;
+}
+#enviar {
+    background-color: #743712;
+}
+
+#limpiar {
+    background-color:#dd5a8d;
+}
+
+.table_title_invt {
+    background-color: #743712;
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        background:url("../img/dessert-g5e09ef60c_1920.jpg") no-repeat center center fixed;
+        background-size:cover;
+        height:150px;
+        width: 100%;
+    
+    }
+}
