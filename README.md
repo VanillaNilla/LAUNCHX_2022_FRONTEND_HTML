@@ -5,7 +5,9 @@ Here you're gonna find all my HTML practices made to LAUNCHX during the frontend
 Para la práctica de esta semana tendrán que maquetar en HTML el siguiente caso y generar su repositorio con el ejercicio.
 Recordemos que solamente se necesita maquetar como un prototipo, no es necesario que tenga funcionalidad completa en la información
 
-Caso: Pastelería
+Caso: Pastelería (Vanillanilla)
+
+![logo vanilla](https://user-images.githubusercontent.com/62974302/156963208-7b83e5b8-d866-42da-a8cf-7d5ebd5d9eb0.png)
 
 Descripción:
 
